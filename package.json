@@ -1,0 +1,25 @@
+{
+  "name": "jito-web3js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.11",
+    "tsx": "^4.9.3",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@solana-program/memo": "^0.3.2",
+    "@solana-program/system": "^0.3.2",
+    "@solana/rpc-spec": "^2.0.0-preview.3",
+    "@solana/transaction-confirmation": "^2.0.0-preview.3",
+    "@solana/web3.js": "^2.0.0-preview.3",
+    "dotenv": "^16.4.5"
+  }
+}
